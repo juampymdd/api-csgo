@@ -2,12 +2,6 @@ import express from 'express';
 import dotenv from 'dotenv';
 dotenv.config();
 
-
-
-
-
-//const steam = new SteamWebAPI(process.env.API_KEY);
-
 const app = express();
 
 app.get('/playerinfo/:id', async (req, res) => {
